@@ -1,11 +1,9 @@
 function getGamesURL() {
-  const GAMES_URL = 'http://localhost:3000/games'
-  return GAMES_URL
+  return 'http://localhost:3000/games'
 }
 
 function getUserGamesURL() {
-  const USER_GAMES_URL = 'http://localhost:3000/user_games'
-  return USER_GAMES_URL
+  return 'http://localhost:3000/user_games'
 }
 
 function getSubmitNewGameButton() {
@@ -52,7 +50,7 @@ function getGameForm() {
 }
 
 function editGame(e) {
-  
+
   let gameID = e.target.parentElement.dataset.id
   let editGameDiv = document.createElement('div')
   editGameDiv.id = 'game-edit-form-div'

@@ -1,16 +1,13 @@
 function getUserUrl() {
-  const USER_URL = 'http://localhost:3000/users'
-  return USER_URL
+  return 'http://localhost:3000/users'
 }
 
 function getLoginUrl () {
-  const LOGIN_URL = 'http://localhost:3000/login'
-  return LOGIN_URL
+  return 'http://localhost:3000/login'
 }
 
 function getLogoutUrl () {
-  const LOGOUT_URL = 'http://localhost:3000/logout'
-  return LOGOUT_URL
+  return 'http://localhost:3000/logout'
 }
 
 function getHeaders() {
